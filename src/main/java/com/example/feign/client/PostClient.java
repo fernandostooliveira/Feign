@@ -5,6 +5,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.example.feign.DTO.PostDTO;
 
+//url de testes Json
+
 @FeignClient(name = "post", url = "https://jsonplaceholder.typicode.com")
 public interface PostClient {
 
